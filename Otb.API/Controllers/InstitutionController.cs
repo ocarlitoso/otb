@@ -5,10 +5,10 @@ using Otb.Persistence;
 
 namespace Otb.API.Controllers
 {
-    public class IntitutionController : BaseApiController
+    public class InstitutionController : BaseApiController
     {
         public readonly DataContext _context; 
-        public IntitutionController(DataContext context)
+        public InstitutionController(DataContext context)
         {
             _context = context;            
         }
